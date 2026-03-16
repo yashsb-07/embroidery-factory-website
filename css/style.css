@@ -170,3 +170,43 @@ body{
     transform: scale(1.05);
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
+
+/* PROCESS SECTION */
+
+.process{
+    background:#111;
+    color:white;
+    padding:80px 10%;
+    text-align:center;
+}
+
+.process h2{
+    font-size:32px;
+    margin-bottom:50px;
+}
+
+.process-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.process-step{
+    background:#1d1d1d;
+    padding:30px;
+    width:250px;
+    border-radius:10px;
+}
+
+.process-number{
+    width:40px;
+    height:40px;
+    background:#e63946;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0 auto 15px auto;
+    font-weight:bold;
+}
