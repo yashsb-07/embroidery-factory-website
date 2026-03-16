@@ -38,19 +38,23 @@
 
         <div class="gallery-grid">
 
-            <img src="images/10design.jpeg" alt="">
-            <img src="images/03design.jpeg" alt="">
-            <img src="images/04design.jpeg" alt="">
-            <img src="images/01design.jpeg" alt="">
-            <img src="images/02design.jpeg" alt="">
-            <img src="images/05design.jpeg" alt="">
-            <img src="images/08design.jpeg" alt="">
-            <img src="images/06design.jpeg" alt="">
-            <img src="images/09design.jpeg" alt="">
+            <img src="images/10design.jpeg" onclick="openLightbox(this.src)" alt="our designs">
+            <img src="images/03design.jpeg" onclick="openLightbox(this.src)" alt="our designs">
+            <img src="images/04design.jpeg" onclick="openLightbox(this.src)" alt="our designs">
+            <img src="images/01design.jpeg" onclick="openLightbox(this.src)" alt="our designs">
+            <img src="images/02design.jpeg" onclick="openLightbox(this.src)" alt="our designs">
+            <img src="images/05design.jpeg" onclick="openLightbox(this.src)" alt="our designs">
+            <img src="images/08design.jpeg" onclick="openLightbox(this.src)" alt="our designs">
+            <img src="images/06design.jpeg" onclick="openLightbox(this.src)" alt="our designs">
+            <img src="images/09design.jpeg" onclick="openLightbox(this.src)" alt="our designs">
 
         </div>
 
     </section>
+
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <img id="lightbox-img">
+    </div>
 
     <footer class="footer">
 
@@ -87,6 +91,8 @@
         </div>
 
     </footer>
+
+    <script src="js/script.js"></script>
 
 </body>
 </html>
