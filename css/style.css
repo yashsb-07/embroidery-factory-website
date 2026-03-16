@@ -350,3 +350,41 @@ body{
 .service-box h3{
     margin-bottom:15px;
 }
+
+/* GALLERY PAGE */
+
+.gallery-page-header{
+    padding:80px 10%;
+    text-align:center;
+}
+
+.gallery-page-header h1{
+    font-size:36px;
+    margin-bottom:10px;
+}
+
+.gallery-page-header p{
+    color:#555;
+}
+
+/* GALLERY GRID */
+
+.gallery-page{
+    padding:50px 10%;
+}
+
+.gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+
+.gallery-grid img{
+    width:100%;
+    border-radius:10px;
+    transition:transform 0.3s;
+}
+
+.gallery-grid img:hover{
+    transform:scale(1.05);
+}
