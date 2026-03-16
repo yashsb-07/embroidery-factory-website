@@ -388,3 +388,61 @@ body{
 .gallery-grid img:hover{
     transform:scale(1.05);
 }
+
+/* CONTACT PAGE */
+
+.contact-header{
+    padding:80px 10%;
+    text-align:center;
+}
+
+.contact-header h1{
+    font-size:36px;
+    margin-bottom:10px;
+}
+
+.contact-header p{
+    color:#555;
+}
+
+/* CONTACT SECTION */
+
+.contact-section{
+    padding:60px 10%;
+}
+
+.contact-container{
+    display:flex;
+    gap:50px;
+    flex-wrap:wrap;
+}
+
+.contact-info{
+    flex:1;
+}
+
+.contact-form{
+    flex:1;
+}
+
+.contact-form form{
+    display:flex;
+    flex-direction:column;
+}
+
+.contact-form input,
+.contact-form textarea{
+    padding:12px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+.contact-form button{
+    background:#e63946;
+    color:white;
+    padding:12px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
