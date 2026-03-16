@@ -7,7 +7,12 @@
 }
 
 body{
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    line-height:1.6;
+}
+
+h1,h2,h3{
+    font-weight:600;
 }
 
 /* NAVBAR */
@@ -36,7 +41,12 @@ body{
 .nav-links a{
     text-decoration:none;
     color:white;
-    font-weight:bold;
+    font-weight:500;
+    transition:0.3s;
+}
+
+.nav-links a:hover{
+    color:#e63946;
 }
 
 /* HERO SECTION */
@@ -71,7 +81,13 @@ body{
     color:white;
     padding:12px 25px;
     text-decoration:none;
-    border-radius:5px;
+    border-radius:30px;
+    font-weight:500;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#c92c3a;
 }
 
 /* ABOUT SECTION */
@@ -134,6 +150,11 @@ body{
     border-radius:10px;
     width:300px;
     box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.service-card:hover{
+    transform:translateY(-8px);
 }
 
 .service-card h3{
@@ -165,8 +186,7 @@ body{
 }
 
 .gallery-item img:hover{
-    transform: scale(1.05);
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transform:scale(1.08);
 }
 
 /* PROCESS SECTION */
