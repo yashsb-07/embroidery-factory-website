@@ -26,3 +26,9 @@ function showSlide(){
 }
 
 setInterval(showSlide, 4000);
+
+// NAVBAR TOGGLE
+
+function toggleMenu(){
+    document.getElementById("navLinks").classList.toggle("active");
+}

@@ -11,15 +11,25 @@
 
     <header>
         <nav class="navbar">
-            <h2 class="logo">Purnavi Creation</h2>
 
-            <ul class="nav-links">
+            <div class="logo">
+                <span class="logo-icon">🧵</span>
+                <span class="logo-text">Embroidery Factory</span>
+            </div>
+
+            <ul class="nav-links" id="navLinks">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
+
+            <!-- HAMBURGER -->
+            <div class="menu-toggle" onclick="toggleMenu()">
+                ☰
+            </div>
+
         </nav>
     </header>
 
@@ -109,6 +119,8 @@
         </div>
 
     </footer>
+
+    <script src="js/script.js"></script>
 
 </body>
 </html>

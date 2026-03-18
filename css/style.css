@@ -42,11 +42,23 @@ section h2::after{
 /* NAVBAR */
 
 .navbar{
+    position:sticky;
+    top:0;
+    z-index:1000;
     display:flex;
     justify-content:space-between;
     align-items:center;
     padding:20px 80px;
     background:var(--secondary-color);
+}
+
+/* HAMBURGER */
+
+.menu-toggle{
+    display:none;
+    font-size:28px;
+    color:white;
+    cursor:pointer;
 }
 
 .logo{
@@ -559,13 +571,29 @@ section h2::after{
     padding:20px;
 }
 
+/* NAVBAR MOBILE */
+
 .nav-links{
+    position:absolute;
+    top:70px;
+    right:0;
+    background:#111;
+    width:100%;
     flex-direction:column;
-    margin-top:15px;
+    align-items:center;
+    display:none;
 }
 
 .nav-links li{
-    margin:10px 0;
+    margin:15px 0;
+}
+
+.nav-links.active{
+    display:flex;
+}
+
+.menu-toggle{
+    display:block;
 }
 
 
