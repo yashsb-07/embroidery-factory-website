@@ -166,6 +166,30 @@ section h2::after{
     transform:translateY(-2px);
 }
 
+.whatsapp-btn{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#25D366;
+    color:white;
+    padding:12px 20px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.call-btn{
+    position:fixed;
+    bottom:70px;
+    right:20px;
+    background:#e63946;
+    color:white;
+    padding:12px 20px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
 /* ABOUT SECTION */
 
 .about{
