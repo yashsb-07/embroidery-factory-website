@@ -27,7 +27,7 @@ https://yashsb-07.github.io/embroidery-factory-website/
 * GitHub Pages (Deployment)
 
 ## 📁 Project Structure
-
+```
 embroidery-factory-website/
 │
 ├── index.html
@@ -45,6 +45,7 @@ embroidery-factory-website/
 ├── images/
 │
 └── README.md
+```
 
 ## 🎯 Purpose of the Project
 
