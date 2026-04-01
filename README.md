@@ -51,6 +51,12 @@ embroidery-factory-website/
 
 This project was developed to create a professional online presence for an embroidery factory and to practice real-world frontend web development skills.
 
-## 👨‍💻 Developed By
+## 👨‍💻 Author
 
-Yash Bansode
+**Yash Bansode**
+MCA Student | Python Full Stack Developer
+
+---
+
+## ⭐ If you like this project, please give it a star on GitHub!
+
