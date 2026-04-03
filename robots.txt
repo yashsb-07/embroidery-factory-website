@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://yashsb-07.github.io/embroidery-factory-website/sitemap.xml
