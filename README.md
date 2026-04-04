@@ -5,7 +5,7 @@ The website showcases embroidery services, design portfolio, company information
 
 ## 🌐 Live Website
 
-https://yashsb-07.github.io/embroidery-factory-website/
+https://embroidery-factory-website.vercel.app/
 
 ## 📌 Features
 
