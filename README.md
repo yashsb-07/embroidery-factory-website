@@ -3,11 +3,11 @@
 A professional multi-page business website developed for an embroidery design and computerized embroidery manufacturing factory.
 The website showcases embroidery services, design portfolio, company information, and contact details for potential clients.
 
-## 🌐 Live Website
+## 🌐 Live Website to see
 
 https://embroidery-factory-website.vercel.app/
 
-## 📌 Features
+## 📌 Feature
 
 * Responsive multi-page website
 * Modern homepage with hero image slider
